@@ -4,13 +4,13 @@
 #include <stdio.h>
 
 int main(void) { // function main begins program execution
-    int u; // initial velocity
-    int a; // acceleration
-    int t; // time has elapsed
+	int u; // initial velocity
+	int a; // acceleration
+	int t; // time has elapsed
 
-    puts("Please enter object's initial velocity: "); // prompting the user for entering object's initial velocity
-    scanf("%d", &u); // storing the value
-    puts("Please enter object's acceleration: "); // prompting the user for entering object's acceleration
+	puts("Please enter object's initial velocity: "); // prompting the user for entering object's initial velocity
+	scanf("%d", &u); // storing the value
+	puts("Please enter object's acceleration: "); // prompting the user for entering object's acceleration
 	scanf("%d", &a); // storing the value
 	puts("Please enter the time has elapsed: "); // prompting the user for entering the time has elapsed
 	scanf("%d", &t); // storing the value
