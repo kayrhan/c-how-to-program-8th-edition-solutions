@@ -1,0 +1,31 @@
+# Top
+Calculate and print the payment details of a bank customer's mortgage
+
+# First Refinement
+Initialize the variables
+Input the required informations from the user
+Calculate and print the payment details
+
+# Second Refinement
+Initialize the account number to 0
+Initialize the mortgage amount to 0
+Initialize the mortgage term to 0
+Initialize the interest rate to 0.075
+Initialize the total interest payable to 0
+Initialize the total amount payable to 0
+
+Input the account number (possibly the sentinel)
+
+While the user has not as yet entered the sentinel
+	Input the mortgage amount
+	Input the mortgage term
+	Input the interest rate
+
+	If the mortgage amount is greater than 0
+		Set the total interest payable by multiplying the mortgage amount, the interest rate and the mortgage term
+		Set the total amount payable by adding the total interest payable to the mortgage amount
+		Print the required monthly payment by dividing the total amount payable by the number of months in the mortgage term. Round off the result to nearest dollar before printing
+	Else
+		Print "There is no mortgage to pay!"
+	
+	Input the account number (possibly the sentinel)

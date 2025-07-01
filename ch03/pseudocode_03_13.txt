@@ -1,0 +1,16 @@
+Print "Enter your name:"
+
+
+
+Multiply the variable a with b, c and d and assign the result to variable p
+
+
+
+if x is greater than y
+	set x to 10
+else
+	set x to 20
+
+
+
+Input the variables a, b, c and d

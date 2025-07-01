@@ -1,0 +1,39 @@
+Initialize the product to 0
+
+Input three numbers
+Compute three numbers' product and assign the result to the product
+
+Print the product
+
+
+
+
+
+Input two numbers
+
+If first one is greater than the second
+	Print "The first number is greater!"
+Else if second one is greater than the first
+	Print "The second number is greater!"
+Else
+	Print "Numbers are equal!"
+
+
+
+
+
+
+Initialize total to 0
+Initialize counter to 0
+
+Input the first positive number (possibly the sentinel)
+While the user has not as yet entered the sentinel
+	Add this number into the running total
+	Add one to the counter
+	Input the next positive number (possibly the sentinel)
+
+If the counter is not equal to 0
+	Set the avarage to the total divided by the counter
+	Print the avarage
+Else
+	Print "No numbers were entered."

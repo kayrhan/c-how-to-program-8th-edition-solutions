@@ -1,0 +1,23 @@
+# Top
+Determine and display the employee's gross pay
+
+# First Refinement
+Initialize the variables
+Input the required informations
+Determine and display the employee's gross pay
+
+# Second Refinement
+Initialize the hours worked to 40 (possibly the sentinel which is -1)
+Initialize the hourly rate of the employee to 10 (dollars)
+
+Input the hours worked (possibly the sentinel)
+
+While the user has not as yet entered the sentinel
+	Input the hourly rate of the employee
+
+	If the employee exceeds 40 hours of work
+		Print the employee's gross pay by adding the hourly rate multiplied with 40 and all hours worked in excess of 40 hours multiplied with 1.5
+	Else
+		Print the employee's gross pay by multiplying the hours worked with the employee's hourly rate
+
+	Input the hours worked (possibly the sentinel) 

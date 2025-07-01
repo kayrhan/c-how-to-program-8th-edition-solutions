@@ -1,0 +1,25 @@
+# Top
+Calculate and display the simple interest for a loan
+
+# First Refinement
+Initialize the variables
+Input the required informations
+Calculate and display the simple interest
+
+# Second Refinement
+Initialize the loan principal to 0 (possibly the sentinel which is -1)
+Initialize the annual interest rate to 0.1
+Initialize the term of the loan in days to 365
+
+Input the loan principal (possibly the sentinel)
+
+While the user has not as yet entered the sentinel
+	Input the annual interest rate
+	Input the term of the loan in days
+
+	If the loan principal is greater than 0
+		Print the simple interest by multiplying the loan principal with the annual interest rate and the term of the loan in days divided by 365
+	Else
+		Print "There is no debt!"
+
+	Input the loan principal (possibly the sentinel)

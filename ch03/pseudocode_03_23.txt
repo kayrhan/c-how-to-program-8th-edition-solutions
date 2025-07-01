@@ -1,0 +1,22 @@
+# Top
+Find the largest number in a series of 10 non-negative numbers
+
+# First Refinement
+Initalize the variables
+Input the numbers
+Determine and display the largest number
+
+# Second Refinement
+Initialize the counter to 0
+Initialize the current number to 0
+Initialize the largest number to 0
+
+While the counter is less than 10
+	Input a number and assign it to the current number
+	
+	If the current number is greater than the largest number
+		Assign the current number to the largest number
+
+	Increment the counter by 1
+
+Display the largest number

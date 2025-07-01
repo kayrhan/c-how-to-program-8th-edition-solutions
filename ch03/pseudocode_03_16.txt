@@ -1,0 +1,33 @@
+# Top
+Determine the sales taxes on the collections
+
+# First Refinement
+Initialize variables
+Input the total collections for a month
+Calculate and print the taxes
+
+# Second Refinement
+Initialize the total collections to 0
+Initialize the sales to 0
+Initialize the unit price to 1
+Initialize the county tax to 0
+Initialize the state tax to 0
+Initialize the total tax to 0
+
+Input the total collections for a month (possibly the sentinel)
+
+While the user has not as yet entered the sentinel
+	If the total collection is greater than 0
+		Set the sales to the total collections multiplied with the unit price
+		Set the county tax to the sales multiplied with 0.05
+		Set the state tax to the sales multiplied with 0.04
+		Set the total tax by adding the county tax to the state tax
+		Print the sales
+		Print the county tax
+		Print the state tax
+		Print the total tax
+		Print the net sales after taxes by subtracting the total tax from the sales
+	Else
+		Print "There is no collection this month!"
+
+	Input the total collections for a month (possibly the sentinel)

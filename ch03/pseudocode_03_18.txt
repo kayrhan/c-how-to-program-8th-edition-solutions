@@ -1,0 +1,17 @@
+# Top
+Calculate and display salesperson's earnings on a commission basis
+
+# First Refinement
+Initialize the variables
+Input the sales for a salesperson
+Calculate and print the earning
+
+# Second Refinement
+Initialize the gross sales to 0 (possibly the sentinel which is -1)
+
+Input the sales for a salesperson (possibly the sentinel)
+
+While the user has not as yet entered the sentinel
+	Print the earning by multiplying the gross sales with 0.09 and adding 200 to the product
+	Input the sales for a salesperson (possibly the sentinel)
+
